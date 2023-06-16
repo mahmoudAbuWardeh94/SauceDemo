@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-16T23:47:37 EET" name="Default suite" finished-at="2023-06-16T23:47:44 EET" duration-ms="7516">
+    <groups>
+      <group name="Single">
+        <method signature="HomePage.add_item()[pri:1, instance:HomePage@437da279]" name="add_item" class="HomePage"/>
+        <method signature="HomePage.check_the_price()[pri:2, instance:HomePage@437da279]" name="check_the_price" class="HomePage"/>
+      </group> <!-- Single -->
+    </groups>
+    <test started-at="2023-06-16T23:47:37 EET" name="Default test" finished-at="2023-06-16T23:47:44 EET" duration-ms="7516">
+      <class name="HomePage">
+        <test-method is-config="true" signature="this_is_before_test()[pri:0, instance:HomePage@437da279]" started-at="2023-06-16T23:47:37 EET" name="this_is_before_test" finished-at="2023-06-16T23:47:43 EET" duration-ms="6197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- this_is_before_test -->
+        <test-method signature="add_item()[pri:1, instance:HomePage@437da279]" started-at="2023-06-16T23:47:43 EET" name="add_item" finished-at="2023-06-16T23:47:43 EET" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_item -->
+        <test-method signature="check_the_price()[pri:2, instance:HomePage@437da279]" started-at="2023-06-16T23:47:43 EET" name="check_the_price" finished-at="2023-06-16T23:47:44 EET" duration-ms="1087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_the_price -->
+      </class> <!-- HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
